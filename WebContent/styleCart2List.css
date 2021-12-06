@@ -1,0 +1,58 @@
+@charset "utf-8";
+			.checkRed
+			{
+				color:red;
+			}
+			#wrapPonup
+			{
+				background-color:#0000002b;
+				position: absolute;
+    			left: 0;
+    			top: 0;
+    			display:none;
+			}
+			#ponup
+			{
+				border:1px solid black;
+				width:350px;
+				/*height:300px;*/
+				position:absolute;
+				background-color:white;
+				padding:1%;
+			}
+			#wrap2
+			{
+				width:350px;
+				
+			}
+			#wrap2 div
+			{
+				width:100%;
+				display:inline-block;
+			}
+			#wrap2 div div
+			{
+				width:28%;
+				padding:2%;
+				
+			}
+			#wrap2 > div:last-child
+			{
+				width:300px;
+			}
+
+			#red
+			{
+				color:red;
+				margin-top:2%;
+			}
+			.ment
+			{
+				padding-left:2%;
+				
+			}
+			.inputment
+			{
+				float:right;
+				margin-left:2%;
+			}

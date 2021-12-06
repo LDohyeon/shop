@@ -1,0 +1,237 @@
+@charset "utf-8";
+			*
+			{
+				padding:0;
+				margin:0;
+			}
+			#header
+			{
+				background: #f6f6f6;
+				height: 40px;
+				width:100%;
+				margin-bottom:38px;
+			}
+			#header2
+			{
+				width:80%;
+			}
+			#uheader
+			{
+				padding:0;
+				margin:0;
+			}
+			#uheader li
+			{
+				float:right;
+				list-style:none;
+				padding:0 7px;
+				line-height:40px;
+				display:inline-block;
+				font-size: 12px;
+    			color: #555555;
+			}
+
+			#uheader li::after
+			{
+				display:block;
+				clear:both;
+				content:"";
+			}
+			/*가장 상단 끝*/
+			
+			
+			/*타이틀과 검색창 시작*/
+			#title
+			{
+				background-color:orange;
+				width:1170px;
+				margin:0 auto;
+				height:70px;
+			}
+			#title span
+			{
+				font-size:50px;
+				float:left;
+				margin-left:30px;
+				margin-right:70px;
+			}
+			#title span::after
+			{
+				display:block;
+				clear:both;
+				content:"";
+			}
+
+			#srh
+			{
+				height: 35px;
+				width:375px;
+				font-size: 38px;
+				border: 2px solid lightblue;
+				margin-top:16px;
+			}
+			input[type="submit"]
+			{
+				margin:0;
+				border: 3px solid lightblue;
+				height: 38px;
+    			padding: 14px;
+    			margin: -5px;
+    			font-size: 14px;
+    			line-height:19px;
+			}
+			#title li
+			{
+				float:right;
+				list-style:none;
+				padding:0 7px;
+				line-height:40px;
+				display:inline-block;
+				font-size: 12px;
+    			color: #555555;
+    			border:1px solid gray;
+    			
+    			/*어거지로 만든 거니까 고쳐라 나중에*/
+    		}
+			#title li::after
+			{
+				display:block;
+				clear:both;
+				content:"";
+			}
+			form
+			{
+				margin:0;
+				padding:0;
+			}
+			/*타이틀과 검색창 끝*/
+			
+			
+			/*메뉴시작*/
+			#memu
+			{
+				width:100%;
+				background-color:orange;
+			}
+			#memu, #memu2::after
+			{
+				display:block;
+				clear:both;
+				content:"";
+			}
+			#memu2
+			{
+				width:1170px;
+				margin:0 auto;
+
+			}
+			#memu2 li
+			{
+				list-style:none;
+				display:inline-block;
+				padding:10px;
+				width:143px;
+				border:2px solid gray;
+				float:left;
+				text-align:center;
+				
+			}
+			#memu2 li:hover
+			{
+				background-color:lightblue;
+				color:white;
+			}
+			#memu3
+			{
+				width:1170px;
+				margin:0 auto;
+
+			}
+			/*메뉴끝*/
+			
+			
+
+			
+			
+			
+			
+			/*footer 시작*/
+			#footer3
+			{
+				background-color:lightgray;
+			}
+			#footer
+			{
+				
+				width:1170px;
+				
+				padding-top:5%;
+				padding-bottom:5%;
+				color:gray;
+				margin:0 auto;
+			}
+			
+			
+			#footer2
+			{
+				width:100%;
+			}
+
+			
+			
+			
+			/*wrap 시작*/
+
+			#wrap
+			{
+				margin:0 auto;
+				width:1200px;
+			}
+			h1
+			{
+				color:green;
+			}
+			table
+			{
+				width: 459px;
+				border-collapse:collapse;
+				font-size:15px;
+				line-height:25px;
+			}
+			table, th, td
+			{
+				border:1px solid gray;
+			}
+			th
+			{
+				background-color:yellowgreen;	
+			}
+			a
+			{
+				text-decoration:none;
+				color:black;
+			}
+			a:hover
+			{
+				text-decoration:underline;
+				color:green;
+			}
+			#pageBtn
+			{
+				list-style:none;
+			}
+			#pageBtn li
+			{
+				display:inline-block;
+			}
+			#content
+			{
+				height:220px;
+				line-height: 220px;
+			}
+			
+			
+			
+			
+			
+			

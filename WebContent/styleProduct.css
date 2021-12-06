@@ -1,0 +1,86 @@
+@charset "utf-8";
+			#productWrap
+			{
+				margin:100px auto;
+				width:1170px;
+
+			}
+			h1
+			{
+				color:green;
+			}
+			table
+			{
+				width:100%;
+				border-collapse:collapse;
+				font-size:15px;
+				line-height:25px;
+			}
+			table, th, td
+			{
+				border:1px solid gray;
+			}
+			th
+			{
+				background-color:yellowgreen;	
+			}
+			a
+			{
+				text-decoration:none;
+				color:black;
+			}
+			a:hover
+			{
+				text-decoration:underline;
+				color:green;
+			}
+			#pageBtn
+			{
+				list-style:none;
+			}
+			#pageBtn li
+			{
+				display:inline-block;
+			}
+			
+			
+			
+			
+			table, th, td
+			{
+				border:1px solid gray;
+				border-collapse: collapse;
+			}
+			th
+			{
+			    width: 100px;
+			}
+			table
+			{
+				width: 459px;
+			}
+			#wrap
+			{
+				width:1170px;
+			}
+			#productContent
+			{
+				background-color:lightgray;
+			}
+			.btn
+			{
+				background-color:#d40c0c;
+				color:white;
+			}
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

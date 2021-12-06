@@ -1,0 +1,55 @@
+@charset "utf-8";
+			#productWrap
+			{
+				margin:50px auto;
+				width:1170px;
+
+			}
+			h1
+			{
+				color:green;
+			}
+			table
+			{
+				width:100%;
+				border-collapse:collapse;
+				font-size:15px;
+				line-height:25px;
+			}
+			table, th, td
+			{
+				border:1px solid gray;
+			}
+			th
+			{
+				background-color:yellowgreen;	
+			}
+			a
+			{
+				text-decoration:none;
+				color:black;
+			}
+			a:hover
+			{
+				text-decoration:underline;
+				color:green;
+			}
+			#pageBtn
+			{
+				list-style:none;
+			}
+			#pageBtn li
+			{
+				display:inline-block;
+			}
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			

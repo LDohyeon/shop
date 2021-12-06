@@ -1,0 +1,300 @@
+@charset "utf-8";
+			*
+			{
+				padding:0;
+				margin:0;
+			}
+			#header
+			{
+				background: #f6f6f6;
+				height: 40px;
+				width:100%;
+				
+			}
+			#header2
+			{
+				width:80%;
+			}
+			#uheader
+			{
+				padding:0;
+				margin:0;
+			}
+			#uheader li
+			{
+				float:right;
+				list-style:none;
+				padding:0 7px;
+				line-height:40px;
+				display:inline-block;
+				font-size: 12px;
+    			color: #555555;
+			}
+
+			#uheader li::after
+			{
+				display:block;
+				clear:both;
+				content:"";
+			}
+			/*가장 상단 끝*/
+			
+			
+			/*타이틀과 검색창 시작*/
+			#titleWrap
+			{
+				width:100%;
+				background-color:orange;
+				padding-bottom: 14px;
+    			padding-top: 14px;
+			}
+			#title
+			{
+				background-color:orange;
+				width:1170px;
+				margin:0 auto;
+				height:70px;
+			}
+			#title span
+			{
+				font-size:50px;
+				float:left;
+				margin-left:30px;
+				margin-right:70px;
+			}
+			#title span::after
+			{
+				display:block;
+				clear:both;
+				content:"";
+			}
+
+			#srh
+			{
+				height: 35px;
+				width:375px;
+				font-size: 38px;
+				border: 2px solid lightblue;
+				margin-top:16px;
+			}
+			input[type="submit"]
+			{
+				margin:0;
+				border: 3px solid lightblue;
+				height: 38px;
+    			padding: 14px;
+    			margin: -5px;
+    			font-size: 14px;
+    			line-height:19px;
+			}
+			#title li
+			{
+				float:right;
+				list-style:none;
+				padding:0 7px;
+				line-height:40px;
+				display:inline-block;
+				font-size: 12px;
+    			color: #555555;
+    			border:1px solid gray;
+    			
+    			/*어거지로 만든 거니까 고쳐라 나중에*/
+    		}
+			#title li::after
+			{
+				display:block;
+				clear:both;
+				content:"";
+			}
+			form
+			{
+				margin:0;
+				padding:0;
+			}
+			/*타이틀과 검색창 끝*/
+			
+			
+			/*메뉴시작*/
+			#memu
+			{
+				width:100%;
+				background-color:orange;
+			}
+			#memu, #memu2::after
+			{
+				display:block;
+				clear:both;
+				content:"";
+			}
+			#memu2
+			{
+				width:1170px;
+				margin:0 auto;
+
+			}
+			#memu2 li
+			{
+				list-style:none;
+				display:inline-block;
+				padding:10px;
+				width:143px;
+				border:2px solid gray;
+				float:left;
+				text-align:center;
+				
+			}
+			#memu2 li:hover
+			{
+				background-color:lightblue;
+				color:white;
+			}
+			#memu3
+			{
+				width:1170px;
+				margin:0 auto;
+
+			}
+			/*메뉴끝*/
+			
+			
+			
+			
+			/*footer 시작*/
+			#footer3
+			{
+				background-color:lightgray;
+			}
+			#footer
+			{			
+				width:1170px;	
+				padding-top:5%;
+				padding-bottom:5%;
+				color:gray;
+				margin:0 auto;
+			}
+			
+			
+			#footer2
+			{
+				width:100%;
+			}
+			
+			
+			
+			/*wrap 시작*/
+			#wrap
+			{
+				width:1170px;
+				margin:0 auto;
+			}
+			#warp h1
+			{
+				text-align:center;
+			}
+			
+			li
+			{
+				display:inline-block;
+			}
+			#pro
+			{
+				border:1px solid black;
+				margin: 13.7px;
+				text-align:center;
+			}
+			#productImg
+			{
+				width:200px;
+				height:200px;
+			}
+			
+			a
+			{
+				text-decoration:none;/*이걸 쓰면 a태그의 밑줄이 없어진다.*/
+				color:black;
+			}
+			a:hover
+			{
+				text-decoration:underline;/*hover 했을 때만 밑줄이 생기게 한다.*/
+				color:green;
+			}
+			
+			#wrap
+			{
+				width:1170px;
+				margin :25px auto;
+
+			}
+			table
+			{
+				width:100%;
+				text-algin:center;  
+				border-collapse:collapse;
+			}
+
+			td
+			{
+				
+				border:1px solid lightgray;
+				text-align:center;
+			}
+			th
+			{
+				background-color:lightgray;
+			}
+			
+			
+			
+			#payment
+			{
+				width:100%;
+				border:1px solid lightgray;
+				margin-top:20px;
+			}
+			#payment div div
+			{
+				float:left;
+				background-color:mintcream;
+				padding-bottom:14px;
+				padding: 9px;
+				width: 371px;
+				text-align:center;
+				border-right:1px solid lightgray;
+				
+			}
+			#payment div div:last-child
+			{
+				color:red;
+				border-right:none;
+			}
+			#payment::after
+			{
+				display:block;
+				clear:both;
+				content:"";
+			}
+			
+			#paymentGo
+			{
+				width:100%;
+			}
+			#paymentGo div
+			{
+				background-color:#d40c0c;;
+				color:white;
+				width:64px;
+				margin: 22px auto;
+			    padding: 15px 60px;
+			}
+			#shipping
+			{
+				font-size: 14px;
+    			color: gray;
+			}
+			#cartNull
+			{
+				padding:100px;
+			}
+			
+			
+			

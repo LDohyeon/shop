@@ -1,0 +1,323 @@
+@charset "utf-8";
+			*
+			{
+				padding:0;
+				margin:0;
+			}
+			#header
+			{
+				background: #f6f6f6;
+				height: 40px;
+				width:100%;
+			}
+			#header2
+			{
+				width:80%;
+			}
+			#uheader
+			{
+				padding:0;
+				margin:0;
+			}
+			#uheader li
+			{
+				float:right;
+				list-style:none;
+				padding:0 7px;
+				line-height:40px;
+				display:inline-block;
+				font-size: 12px;
+    			color: #555555;
+			}
+
+			#uheader li::after
+			{
+				display:block;
+				clear:both;
+				content:"";
+			}
+			/*가장 상단 끝*/
+			
+			
+			/*타이틀과 검색창 시작*/
+			#titleWrap
+			{
+				width:100%;
+				background-color:orange;
+				padding-bottom: 14px;
+    			padding-top: 14px;
+			}
+			#title
+			{
+				background-color:orange;
+				width:1170px;
+				margin:0 auto;
+				height:70px;
+			}
+			#title span
+			{
+				font-size:50px;
+				float:left;
+				margin-left:30px;
+				margin-right:70px;
+			}
+			#title span::after
+			{
+				display:block;
+				clear:both;
+				content:"";
+			}
+
+			#srh
+			{
+				height: 35px;
+				width:375px;
+				font-size: 38px;
+				border: 2px solid lightblue;
+				margin-top:16px;
+			}
+			input[type="submit"]
+			{
+				line-height:1px;
+				background-color:orange;
+				color:white;
+				border:none;
+				margin: 0px;
+				height: 30px;
+			}
+			#title li
+			{
+				float:right;
+				list-style:none;
+				padding:0 7px;
+				line-height:40px;
+				display:inline-block;
+				font-size: 12px;
+    			color: #555555;
+    			border:1px solid gray;
+    			
+    			/*어거지로 만든 거니까 고쳐라 나중에*/
+    		}
+			#title li::after
+			{
+				display:block;
+				clear:both;
+				content:"";
+			}
+			form
+			{
+				margin:0;
+				padding:0;
+			}
+			/*타이틀과 검색창 끝*/
+			
+			
+			/*메뉴시작*/
+			#memu
+			{
+				width:100%;
+				background-color:orange;
+			}
+			#memu, #memu2::after
+			{
+				display:block;
+				clear:both;
+				content:"";
+			}
+			#memu2
+			{
+				width:1170px;
+				margin:0 auto;
+
+			}
+			#memu2 li
+			{
+				list-style:none;
+				display:inline-block;
+				padding:10px;
+				width:143px;
+				border:2px solid gray;
+				float:left;
+				text-align:center;
+				
+			}
+			#memu2 li:hover
+			{
+				background-color:lightblue;
+				color:white;
+			}
+			#memu3
+			{
+				width:1170px;
+				margin:0 auto;
+
+			}
+			/*메뉴끝*/
+			
+			
+
+			
+			/*고객 센터 게시판 시작*/
+			#one
+			{
+				width:1168px;
+				margin:20px auto;
+			}
+			#wrap
+			{
+				width:1113px;
+				margin:30px auto;
+				border:1px solid lightgray;
+				padding:25px;
+			}
+			table
+			{
+				margin:0;
+			}
+			th, td
+			{
+				
+				text-align: center;
+   				font-size: 16px;
+   				width: 100px;
+			}
+			th
+			{
+				padding: 7px 3px;
+			}
+			th:nth-child(2)
+			{
+				width:928px;
+			}
+			td:nth-child(2)
+			{
+				width:928px;
+				text-align:left;
+				padding-left:15px;
+			}
+			thead
+			{
+				background-color:lightgray;
+			}
+			td
+			{
+				background-color:lightblue;
+			}
+			/*고객 센터 게시판 끝*/
+			
+			
+			
+			/*boardContent 시작*/
+			#divTitle
+			{
+				border:1px solid lightblue;
+				padding:5px;
+				margin-bottom:35px;
+			}
+			#divTitle > input
+			{
+				border:none;
+				width:100%;
+			}
+			#divTitle >input:focus
+			{
+				outline:none;
+			}
+			
+			input:nth-child(8)/* 수정 할 수도*/
+			{
+				line-height:1px;
+				background-color:orange;
+				color:white;
+				border:none;
+				margin: 0px;
+				height: 30px;
+			}
+
+			p
+			{
+				padding:8px;
+				color: inherit;
+				font-size: 13px;
+			}
+			h3
+			{
+				padding:10px;
+			}
+
+			/*boardContnet 끝*/
+			
+			
+			
+			#pagebtn
+			{
+				list-style:none;
+			}
+			
+			#pagebtn li
+			{
+				display:inline-block;
+			}
+			/*page 분할끝*/
+			
+			
+			
+			
+			/*footer 시작*/
+			#footer3
+			{
+				background-color:lightgray;
+			}
+			#footer
+			{
+				
+				width:1170px;
+				
+				padding-top:5%;
+				padding-bottom:5%;
+				color:gray;
+				margin:0 auto;
+			}
+			
+			
+			#footer2
+			{
+				width:100%;
+			}
+			
+			
+			
+			/*대댓글*/
+			#cc
+			{
+				border:none;
+				border-right:0px;
+				border-top:0px;
+				border-left:0px;
+			}
+			
+			
+			
+			a
+			{
+				text-decoration:none;/*이걸 쓰면 a태그의 밑줄이 없어진다.*/
+				color:black;
+			}
+			a:hover
+			{
+				text-decoration:underline;/*hover 했을 때만 밑줄이 생기게 한다.*/
+				color:green;
+			}
+			#divImg
+			{
+				text-align:center;
+			}
+			
+			textarea
+			{
+				width:100%; height:200px;
+			}
+			
+			
+			
+			
